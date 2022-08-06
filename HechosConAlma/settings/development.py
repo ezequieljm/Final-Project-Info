@@ -1,7 +1,7 @@
 from .base import *
 
 
-ALLOWED_HOST = ['*'
+ALLOWED_HOSTS = ['*'
   #'*.herokuapp.com',
                 #'dev-final-project-info.herokuapp.com',
 ]

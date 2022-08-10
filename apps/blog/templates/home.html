@@ -1,0 +1,12 @@
+<h1>Home blog</h1>
+
+{% for post in posts %}
+
+    <h2>{{post.name_post}}</h2>
+    <h2>{{post.description}}</h2>
+    <h2>{{post.section}}</h2>
+    <h2>{{post.date}}</h2>
+    <h2>{{post.reactions}}</h2>
+    <h2>{{post.references}}</h2>
+
+{% endfor %}

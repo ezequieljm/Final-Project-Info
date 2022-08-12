@@ -61,7 +61,7 @@ ROOT_URLCONF = 'HechosConAlma.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -127,7 +127,8 @@ STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / 'static'
 
 STATICFILES_DIRS = [
-        os.path.join(BASE_DIR, 'staticfiles')
+    os.path.join(BASE_DIR, 'staticfiles'),
+    os.path.join(os.path.dirname(BASE_DIR),"static")
 ]
 
 # Default primary key field type

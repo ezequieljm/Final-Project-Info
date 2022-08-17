@@ -13,6 +13,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 
 from pathlib import Path
 import os
+# import crispy_forms
 # import whitenoise
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -41,8 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'apps.accounts',
-    'apps.home',
     'apps.blog',
+    'crispy_forms',
 ]
 
 MIDDLEWARE = [

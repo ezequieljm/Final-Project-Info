@@ -4,7 +4,7 @@ from .models import Person
 
 # Register your models here.
 
-admin.site.register(Person)
+# admin.site.register(Person)
 admin.site.register(Member)
 admin.site.register(Administrator)
 admin.site.register(Area)
